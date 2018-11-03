@@ -55,7 +55,7 @@ public class BaseUtil
 	public static void extentReport()
 	{
 		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir")+"\\TestResults\\extent.html");
-		htmlReporter.config().setDocumentTitle("Automation Test Results");
+		htmlReporter.config().setDocumentTitle("Automation Test Results of testing");
 		htmlReporter.config().setReportName("Smoke Test Report");
 		extent=new ExtentReports();
 		extent.attachReporter(htmlReporter);
